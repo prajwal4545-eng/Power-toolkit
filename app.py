@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Prajju Power Toolkit", layout="wide")
+st.set_page_config(page_title="Power Electronics Calculator", layout="wide")
 
 st.title("⚡Power Electronics Toolkit")
 st.markdown("All daily power electronics calculations in one place")
@@ -222,3 +222,4 @@ elif menu == "Standby Drain":
 
         st.success(f"Standby power = {power:.3f} W")
         st.success(f"Battery lasts ≈ {hours:.1f} hours")
+
